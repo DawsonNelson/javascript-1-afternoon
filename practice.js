@@ -6,21 +6,23 @@
 //plus the value of the name parameter.
 
 function greeting(name){
-  return "Hello" + name;
+  return "Hello, " + name;
 }
 //////////////////PROBLEM 2////////////////////
 
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
-
+var newGreeting = function(name){return "Hello, " + name}
 //////////////////PROBLEM 3////////////////////
 
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-//Code Here
+var finalGreeting = name => {
+  "Hello, " + name;
+}
+
 
 //////////////////PROBLEM 4////////////////////
 
@@ -44,21 +46,30 @@ var groceries = ["apples", "milk", "eggs", "bread"]
 //name (a string), color: (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+var dog = {
+  name: "Lizzy",
+  color: "Brown",
+  age: 4,
+  goodBoy: true,
+}
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+var devMountainClassPet = dog.name;
 
 //Add a method to dog called bark.
 //The value of bark should be a function that returns the string "Woof woof".
 
-//Code Here
+var dog = {
+  bark: function bark(){
+    "Woof woof"
+  }
+}
 
 //Store the result of invoking the bark method in a variable called ruff.
 
-//Code Here
+var ruff = dog.bark
 
 //////////////////PROBLEM 6////////////////////
 
