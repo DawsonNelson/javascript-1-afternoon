@@ -5,8 +5,9 @@
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-//Code here
-
+function greeting(name){
+  return "Hello" + name;
+}
 //////////////////PROBLEM 2////////////////////
 
 //Rewrite the function greeting as a function expression.
@@ -26,7 +27,7 @@
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+var groceries = ["apples", "milk", "eggs", "bread"]
 
 //Write a function called doubleCheck that takes in an array
 //as a parameter.
